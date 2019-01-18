@@ -1,11 +1,14 @@
 
 Add this line to your application's Gemfile:
 
+
 gem 'marqueta'
+
+
 And then execute:
 
-$ bundle
-Or install it yourself as:
+$ bundle  or install it yourself as:
+
 
 $ gem install marqueta
 
@@ -14,8 +17,11 @@ Usage
 Call the function in application controller for intializing the app token,
 master token and base url from the marqueta account.
 
-#important
-Marqueta::Gem.marqueta(base_url, app_token, master_token) 
+
+## Important
+
+** Marqueta::Gem.marqueta(base_url, app_token, master_token) **
+
 
 This gem wraps the Marqueta API, which is fully described in the documentation.
 
