@@ -5,7 +5,7 @@ Add this line to your application's Gemfile:
 gem 'marqueta'
 
 
-And then execute:
+**And then execute:**
 
 $ bundle  or install it yourself as:
 
@@ -13,21 +13,22 @@ $ bundle  or install it yourself as:
 $ gem install marqueta
 
 
-Usage
+## Important
+
 Call the function in application controller for intializing the app token,
 master token and base url from the marqueta account.
 
+**Marqueta::Gem.marqueta(base_url, app_token, master_token)**
 
-## Important
 
-** Marqueta::Gem.marqueta(base_url, app_token, master_token) **
+## Usage
 
 
 This gem wraps the Marqueta API, which is fully described in the documentation.
 
 The RubyDoc for the gem is available here.
 
-You can use the Marqueta gem for the following api:
+**You can use the Marqueta gem for the following api:**
 
 1) Marqueta::Gem.create_funding(data, data_auth)
 2) Marqueta::Gem.create_card_product(funding_token, user)
